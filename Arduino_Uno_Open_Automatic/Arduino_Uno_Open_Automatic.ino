@@ -58,3 +58,20 @@ delay(1000); // Adjusted delay to 1 second (1000 milliseconds)
 servo.detach(); // Detach the servo motor
 }
 }
+
+// -----------------------------------------------------------------------
+// --------------------how's the way CONNECTION is------------------------
+// -----------------------------------------------------------------------
+// ➢ Ultrasonic Sensor (HC-SR04):
+// VCC pin of the sensor to 5V of Arduino.
+// GND pin of the sensor to GND of Arduino.
+// TRIG pin of the sensor to digital pin 5 of Arduino.
+// ECHO pin of the sensor to digital pin 6 of Arduino.
+// ➢ Servo Motor:
+// Connect the red wire (power) of the servo to the 5V pin of Arduino.
+// Connect the brown wire (ground) of the servo to the GND pin of Arduino.
+// Connect the yellow or orange wire (signal) of the servo to digital pin 7 of Arduino.
+// ➢ LED Indicator:
+// Connect the anode (long leg) of the LED to digital pin 10 of Arduino.
+// Connect the cathode (short leg) of the LED to a current-limiting resistor (220-330 ohms) and then connect the other end of the resistor to the
+// GND pin of Arduino.
